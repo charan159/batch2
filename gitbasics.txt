@@ -1,0 +1,53 @@
+1. git --version : this will check the version of the git in your system
+
+2. before using git software we should give our name and email to the git so if the any users watch our repos they will know who wrote the code and the owner
+
+ ---> git config --global user.name <name> :
+	        This cmd will set the user name of owner
+ ---> git config --global user.email <email> :
+		This cmd will set the email of owner 
+
+3. to check if the name and email are created or not use :
+	--> git config --global user.name
+	--> git config --global user.email
+
+4. Press {code .} command to open VScode in your system at that file
+
+
+Q) how to get a repository to work in our system?
+
+A) there are two ways to get a repository to work with
+	1. initializing a git repo :
+		you have to start a new repo
+	2. clowning a git repo :
+		an existing repo from the server will be enter your system
+
+
+
+Initializing a git repo
+------------------------
+
+cmd : git init --> To initialize a git
+
+now enter {ls -lart} command to check there are any folder named {.git}
+usually it is a hidden folder so if it is created then,
+git will be succesfully created.
+
+Note : ls -lart --> used to show the hidden files and normal files in the folder
+
+
+Git status
+-------------
+this command will check the status of files present in the git repository
+
+there are 4types in here
+1. UnTracked : what ever the changes happen to the file git will not 	       track any details of that file.
+
+2.staged : the files which are staged will only go to the commit.
+
+3.commit : 
+
+
+
+
+
