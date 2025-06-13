@@ -41,13 +41,13 @@ Git status
 this command will check the status of files present in the git repository
 
 there are 4types in here
-1. UnTracked :  what ever the changes happen to the file git will not track any 			details of that file.
+1. UnTracked :  what ever the changes happen to the file git will not track any details of that file.
 
 2. Staged : the files which are staged will only go to the commit.
 
 3. Commit : commit is a snapshot of files which are tracked by the git.
 
-4. Modified :   if the file which is commited is modified then it will show message 			<Modified : filename> . after this we need to add and commit the file agian 		to track the new data by git.
+4. Modified :   if the file which is commited is modified then it will show message <Modified : filename> . after this we need to add and commit the file agian to track the new data by git.
 
 
 STAGING
@@ -73,6 +73,13 @@ NOTE : status = looking red colour >> stage the file
 
 GIT CHECKOUT
 --------------------
+
+definition : git checkout command is used to enter the past commmited file into the text editor if any thing happens to the file.
+
+example : i saved a file named gitbasics.txt and some one cleared all the data and saved that if you want to restore that file data. we use git checkout to enter the data which has been commited by you before.
+
+command : git checkout <filename> --> to retrive data of 1 file.
+	  git checkout -f --> to retrive data of all the files i git directory.
 
 
 
