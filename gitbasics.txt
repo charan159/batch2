@@ -41,11 +41,58 @@ Git status
 this command will check the status of files present in the git repository
 
 there are 4types in here
-1. UnTracked : what ever the changes happen to the file git will not 	       track any details of that file.
+1. UnTracked :  what ever the changes happen to the file git will not track any 			details of that file.
 
-2.staged : the files which are staged will only go to the commit.
+2. Staged : the files which are staged will only go to the commit.
 
-3.commit : 
+3. Commit : commit is a snapshot of files which are tracked by the git.
+
+4. Modified :   if the file which is commited is modified then it will show message 			<Modified : filename> . after this we need to add and commit the file agian 		to track the new data by git.
+
+
+STAGING
+----------------
+
+to stage a file from untracked or modified state then we use
+
+		example --> git add index.html
+
+add : this command is used to stage the specified file so that can move to commit satge.
+
+
+NOTE : status = looking red colour >> stage the file
+       status = looking green colour >> file is already staged. commit the file.
+
+	if want to all file in the local file to git then write
+		example --> git add -A
+			--> git add --all
+	bot can add all the files in the staging.
+
+
+
+
+GIT CHECKOUT
+--------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
