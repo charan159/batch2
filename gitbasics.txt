@@ -82,6 +82,37 @@ command : git checkout <filename> --> to retrive data of 1 file.
 	  git checkout -f --> to retrive data of all the files i git directory.
 
 
+GIT LOG
+--------------
+
+git log is used check the commits that are done by the branch user. It will record all the changes that are commited by the user along with username and email.
+
+command :
+	git log --> shows all the commits done by the user
+	git log -p -1 --> shows the recent commits.
+		   -1,-2,-3 this will show no of commits that you want to see.
+
+
+
+
+GIT DIFF
+-------------
+definition : git diff command is used to comapare modified file with staged file to check what new changes have done to that file. 
+
+	--> if modified file is same as staged file then it shows nothing.
+	--> we can also compare the staged file with previous commited file.
+
+
+Command : git diff --> comapare(modified,staged).
+	: git diff --staged -> compare(staged,commited).
+
+if the changes that are done in the staging is not good then we can use [git checkout <filename>] to undo the changes and rewrite the previous file.
+
+
+
+ 
+
+
 
 
 
